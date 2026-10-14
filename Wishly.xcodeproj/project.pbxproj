@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8857EE60305D6D89005D6063 /* first_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857EE60305D6D89005D6063 /* Wishly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wishly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8857EE62305D6D89005D6063 /* first_app */ = {
+		8857EE62305D6D89005D6063 /* Wishly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = first_app;
+			path = Wishly;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		8857EE57305D6D89005D6063 = {
 			isa = PBXGroup;
 			children = (
-				8857EE62305D6D89005D6063 /* first_app */,
+				8857EE62305D6D89005D6063 /* Wishly */,
 				8857EE61305D6D89005D6063 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		8857EE61305D6D89005D6063 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8857EE60305D6D89005D6063 /* first_app.app */,
+				8857EE60305D6D89005D6063 /* Wishly.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8857EE5F305D6D89005D6063 /* first_app */ = {
+		8857EE5F305D6D89005D6063 /* Wishly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8857EE6B305D6D89005D6063 /* Build configuration list for PBXNativeTarget "first_app" */;
+			buildConfigurationList = 8857EE6B305D6D89005D6063 /* Build configuration list for PBXNativeTarget "Wishly" */;
 			buildPhases = (
 				8857EE5C305D6D89005D6063 /* Sources */,
 				8857EE5D305D6D89005D6063 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8857EE62305D6D89005D6063 /* first_app */,
+				8857EE62305D6D89005D6063 /* Wishly */,
 			);
-			name = first_app;
+			name = Wishly;
 			packageProductDependencies = (
 			);
-			productName = first_app;
-			productReference = 8857EE60305D6D89005D6063 /* first_app.app */;
+			productName = Wishly;
+			productReference = 8857EE60305D6D89005D6063 /* Wishly.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8857EE5B305D6D89005D6063 /* Build configuration list for PBXProject "first_app" */;
+			buildConfigurationList = 8857EE5B305D6D89005D6063 /* Build configuration list for PBXProject "Wishly" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8857EE5F305D6D89005D6063 /* first_app */,
+				8857EE5F305D6D89005D6063 /* Wishly */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cristian.first-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristian.wishly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cristian.first-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristian.wishly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8857EE5B305D6D89005D6063 /* Build configuration list for PBXProject "first_app" */ = {
+		8857EE5B305D6D89005D6063 /* Build configuration list for PBXProject "Wishly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8857EE69305D6D89005D6063 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8857EE6B305D6D89005D6063 /* Build configuration list for PBXNativeTarget "first_app" */ = {
+		8857EE6B305D6D89005D6063 /* Build configuration list for PBXNativeTarget "Wishly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8857EE6C305D6D89005D6063 /* Debug */,

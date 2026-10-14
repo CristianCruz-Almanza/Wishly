@@ -1,6 +1,6 @@
 //
-//  first_appApp.swift
-//  first_app
+//  WishlyApp.swift
+//  Wishly
 //
 //  Created by Cristian Cruz on 9/18/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct first_appApp: App {
+struct WishlyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
