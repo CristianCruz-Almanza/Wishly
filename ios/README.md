@@ -29,4 +29,4 @@ Wishly/
 4. Abrir `Wishly.xcodeproj` y ejecutar.
 
 ## Reglas del proyecto
-Ver [PROJECT_RULES.md](PROJECT_RULES.md).
+Ver [`.agents/rules/`](../.agents/rules/) y [`docs/`](../docs/README.md).
