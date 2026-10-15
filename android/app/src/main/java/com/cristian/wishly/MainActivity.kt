@@ -23,6 +23,18 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    override fun onResume() {
+        super.onResume()
+        com.cristian.wishly.core.utils.ActivityProvider.currentActivity = this
+    }
+
+    override fun onPause() {
+        super.onPause()
+        if (com.cristian.wishly.core.utils.ActivityProvider.currentActivity == this) {
+            com.cristian.wishly.core.utils.ActivityProvider.currentActivity = null
+        }
+    }
 }
 
 @Composable
